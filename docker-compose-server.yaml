@@ -1,8 +1,0 @@
-version: "3.9"
-services:
-  api:
-    build:
-      context: .
-    image: romanus902/flask-app
-    ports:
-    - 8000:80
